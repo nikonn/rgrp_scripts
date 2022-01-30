@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <img src="https://servers-live.fivem.net/servers/icon/7v4p4r/586513949.png" alt="RegionRP logo" width="96">
+  <img src="https://i.imgur.com/ljmGr4N.png" alt="RegionRP logo" width="96">
   <br>
   rgrp_scripts
   <br>
