@@ -12,8 +12,6 @@ end)
 
 RegisterServerEvent('rg_zdrapki:zdrapZdrapke')
 AddEventHandler('rg_zdrapki:zdrapZdrapke', function(xPlayer, zdrapka)
-    zdrapujeZdrapke = true 
-
     if zdrapka == 'liberty' or zdrapka == 'rich' then   
         if zdrapka == 'liberty' then 
             hehe = Config.MaxKwoty.Liberty 
@@ -27,7 +25,5 @@ AddEventHandler('rg_zdrapki:zdrapZdrapke', function(xPlayer, zdrapka)
         local kasa = math.random(1, hehe)
         xPlayer.showNotification('Wygrano $' .. kasa .. ' w zdrapce')
         xPlayer.addAccountMoney('money', kasa)
-        Citizen.Wait(Config.ZdrapkaCooldown * 1000)
-        zdrapujeZdrapke = false
     end
 end)
