@@ -15,7 +15,7 @@ RegisterCommand('trade', function(source, args)
                             TriggerClientEvent('esx:showNotification', xPlayer.source, 'Wysłano ofertę wymiany dla ID: ' .. targetId)
                         else 
                             if Config.Ostrzezenie then 
-                                print(hehe .. ' | ' .. hehe2 .. ' | ID: ' .. hehe3 .. ' - proba wymiany na dystans wiekszy niz 10') 
+                                print(hehe .. ' | ' .. hehe2 .. ' | ID: ' .. hehe3 .. ' - proba wymiany na dystans wiekszy niz ' .. Config.TradeDystans) 
                             end
                         end
                     else 
